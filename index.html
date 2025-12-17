@@ -3,9 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio 2</title>
+    <title>Portfolio 2 | Stein Arild</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    
+    <header>
+        <div class="container nav">
+            <div class="brand">Stein - Portfolio</div>
+            <nav class="meta">
+                <a href="./index.html">Home</a>
+                <a href="https://github.com/Arkuradev" target="_blank" rel="noopener">GitHub</a>
+            </nav>
+        </div>
+    </header>
+
+<main class="container">
+    <h1>Portfolio 2</h1>
+    <p>
+        Three projects polished and documented for potential employers/clients. 
+    </p>
+
+<section class="grid">
+    <a class="card" href="./projects/memespot.html">
+        <img class="thumb" src="./assets/memespot.webp" alt="MemeSpot Screenshot" />
+        <div class="card-body">
+            <h2 class="card-title">MemeSpot</h2>
+            <p class="card-desc">Social meme feed with search, improved loading UX, and a polished dark UI.</p>
+        </div>
+        <span class="badge">CSS Frameworks</span>
+        <span class="badge">Vanilla JS</span>
+        </div>
+    </div>
+</a>
+
+    <a class="card" href="./projects/js-frameworks.html">
+        <img class="thumb" src="./assets/js-frameworks.webp" alt="JS Frameworks Screenshot" />
+        <div class="card-body">
+            <h2 class="card-title">Online Shop</h2>
+            <p class="card-desc">JS Frameworks project: product grid, product detail page and cart flow.</p>
+        </div>
+        <span class="badge">JS Frameworks</span>
+        <span class="badge">React/Next</span>
+        </div>
+    </div>
+</a>
+
+    <a class="card" href="./projects/semester-project-2.html">
+        <img class="thumb" src="./assets/semester-project-2.webp" alt="Semester Project 2 Screenshot" />
+        <div class="card-body">
+            <h2 class="card-title">Crest Auction</h2>
+            <p class="card-desc">Modern auction platform with listings, bids, profiles and UX refinements.</p>
+        </div>
+        <span class="badge">Semester Project 2</span>
+        <span class="badge">Vanilla JS</span>
+        </div>
+    </div>
+</a>
+</section>
+</main>
+<footer>
+    <div class="container footer">
+        <p>&copy; <span id="year"></span> Stein Arild</p>
+    </div>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>

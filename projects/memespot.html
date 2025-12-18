@@ -5,19 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio 2 | Stein Arild</title>
     <link rel="stylesheet" href="/css/styles.css" />
+    <script defer src="../js/copyLink.js"></script>
 </head>
 <body>
     <header>
         <div class="container nav">
-            <div class="brand">Stein Arild - Portfolio</div>
+            <a class="brand" href="/index.html">← Back</a>
             <nav class="meta">
-                <a href="./index.html">Home</a>
-                <a href="https://github.com/Arkuradev" target="_blank" rel="noopener">GitHub</a>
+                <button class="btn" id="copyLink" type="button">Copy Link</button>
+                <span id="copyStatus"></span>
             </nav>
         </div>
     </header>
-<main class="container">
-    <h1>Memespot incoming!</h1>
-    <a href="/index.html">Go back</a>
+ <main class="container">
+    <h1>MemeSpot</h1>
+    <p class="kicker">CSS Frameworks — polished UX for search/loading/auth and a stronger dark theme presentation.</p>
+
+    <div class="article-hero">
+      <figure class="figure">
+        <img src="../assets/memespot.webp" alt="Screenshot of MemeSpot project" />
+        <figcaption>Feed improvements: debounced search, card skeleton loaders, and a clean auth-gated message.</figcaption>
+      </figure>
+    </div>
+
+    <div class="article">
+      <section class="panel">
+        <h2>Overview</h2>
+        <p>
+          MemeSpot is a meme feed project built with vanilla JavaScript and a CSS framework.
+          For portfolio polish, the goal was to improve perceived performance and increase UX.
+        </p>
+
+        <hr class="soft" />
+
+        <h2>What I improved</h2>
+        <ul>
+          <li>Debounced search input to avoid noisy requests.</li>
+          <li>Replaced global loader on query with skeleton loaders inside the feed.</li>
+          <li>Improved auth handling: shows a friendly “please log in” gate instead of broken redirects.</li>
+        </ul>
+
+        <h2>What I learned</h2>
+        <p>
+          Small UX improvements like loading/empty states make projects feel way better to use, and they look and feel more functional.
+        </p>
+      </section>
+
+      <aside class="panel">
+        <h2>Links</h2>
+        <div class="stack">
+          <a class="btn btn-primary" href="https://memespot-js2.vercel.app/" target="_blank" rel="noopener">Live site ↗</a>
+
+          <a class="btn" href="https://github.com/Arkuradev/memespot#readme" target="_blank" rel="noopener">README ↗</a>
+        </div>
+
+        <hr class="soft" />
+
+        <p style="color: var(--muted); font-size: 0.95rem;">
+          Public repo: <a class="link" href="https://github.com/Arkuradev/memespot" target="_blank" rel="noopener">GitHub ↗</a>
+        </p>
+
+        <p style="color: var(--muted); font-size: 0.95rem;">
+          Classroom repo: <a class="link" href="https://github.com/Arkuradev/js2-course-assignment-Arkuradev" target="_blank" rel="noopener">GitHub ↗</a>
+        </p>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <small>© <span id="year"></span> Stein Arild Gansmoe</small>
+    </div>
+  </footer>
+</body>
+</html>
 </body>
 </html>

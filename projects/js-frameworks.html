@@ -5,19 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio 2 | Stein Arild</title>
     <link rel="stylesheet" href="/css/styles.css" />
+    <script defer src="../js/copyLink.js"></script>
 </head>
 <body>
     <header>
         <div class="container nav">
-            <div class="brand">Stein Arild - Portfolio</div>
+            <a class="brand" href="/index.html">← Back</a>
             <nav class="meta">
-                <a href="./index.html">Home</a>
-                <a href="https://github.com/Arkuradev" target="_blank" rel="noopener">GitHub</a>
+                <button class="btn" id="copyLink" type="button">Copy Link</button>
+                <span id="copyStatus"></span>
             </nav>
         </div>
     </header>
-<main class="container">
-    <h1>JS Frameworks incoming!</h1>
-    <a href="/index.html">Go back</a>
+  <main class="container">
+    <h1>Online Shop</h1>
+    <p class="kicker">JavaScript Frameworks (Next / React) — deployed and polished for portfolio use.</p>
+
+    <div class="article-hero">
+      <figure class="figure">
+        <img src="../assets/js-frameworks.webp" alt="Screenshot of Online Shop project" />
+        <figcaption>Product grid → product page → cart flow, packaged as a clean demo.</figcaption>
+      </figure>
+    </div>
+
+    <div class="article">
+      <section class="panel">
+        <h2>Overview</h2>
+        <p>
+          This project is a modern online shop experience built for the JavaScript Frameworks assignment.
+          The focus for portfolio polish was structure, clarity, and a smooth user journey through products and cart.
+        </p>
+
+        <hr class="soft" />
+
+        <h2>What I improved</h2>
+        <ul>
+          <li>Cleaned up layout and component structure for easier maintenance.</li>
+          <li>Improved UI consistency and navigation across pages.</li>
+          <li>Ensured the deployment settings and routing behaved correctly on Vercel.</li>
+        </ul>
+
+        <h2>What I learned</h2>
+        <p>
+          Structuring a small app for readability and maintainability, and making deployment part of the workflow
+          instead of a last-minute step.
+        </p>
+      </section>
+
+      <aside class="panel">
+        <h2>Links</h2>
+        <div class="stack">
+          <a class="btn btn-primary" href="https://jsfw-2025-v1-stein-jsframeworks.vercel.app/" target="_blank" rel="noopener">Live site ↗</a>
+          <a class="btn" href="https://github.com/NoroffFEU/jsfw-2025-v1-stein-jsframeworks#readme" target="_blank" rel="noopener">README ↗</a>
+        </div>
+
+        <hr class="soft" />
+
+        <p style="color: var(--muted); font-size: 0.95rem;">
+          Repo: <a class="link" href="https://github.com/NoroffFEU/jsfw-2025-v1-stein-jsframeworks" target="_blank" rel="noopener">GitHub ↗</a>
+        </p>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <small>© <span id="year"></span> Stein Arild Gansmoe</small>
+    </div>
+  </footer>
+</body>
+</html>
 </body>
 </html>

@@ -5,19 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio 2 | Stein Arild</title>
     <link rel="stylesheet" href="/css/styles.css" />
+    <script defer src="../js/copyLink.js"></script>
 </head>
 <body>
     <header>
         <div class="container nav">
-            <div class="brand">Stein Arild - Portfolio</div>
+            <a class="brand" href="/index.html">← Back</a>
             <nav class="meta">
-                <a href="./index.html">Home</a>
-                <a href="https://github.com/Arkuradev" target="_blank" rel="noopener">GitHub</a>
+                <button class="btn" id="copyLink" type="button">Copy Link</button>
+                <span id="copyStatus"></span>
             </nav>
         </div>
     </header>
-<main class="container">
-    <h1>Semester Project 2 incoming!</h1>
-    <a href="/index.html">Go back</a>
+     <main class="container">
+    <h1>Auction Site</h1>
+    <p class="kicker">Semester Project 2 — vanilla JS auction platform with listings, bidding, and profile flows.</p>
+
+    <div class="article-hero">
+      <figure class="figure">
+        <img src="../assets/semester-project-2.webp" alt="Screenshot of Auction Site project" />
+        <figcaption>A modern auction experience: listings → bidding → user profiles, polished for portfolio use.</figcaption>
+      </figure>
+    </div>
+
+    <div class="article">
+      <section class="panel">
+        <h2>Overview</h2>
+        <p>
+          This project is a modern auction website built with vanilla JavaScript.
+          Users can browse listings, view details, and place bids. The portfolio focus was to improve usability,
+          structure, and presentation so the project feels complete and easy to demo.
+        </p>
+
+        <hr class="soft" />
+
+        <h2>What I improved</h2>
+        <ul>
+          <li>Refined the layout and UI consistency across core pages.</li>
+          <li>Improved the listing experience (readability, structure, and flow).</li>
+          <li>Focused on UX touches that make the site feel more professional for a demo.</li>
+        </ul>
+
+        <h2>What I learned</h2>
+        <p>
+          Building a larger vanilla JS application reinforced the importance of maintainable structure,
+          clear user flows, and handling async states cleanly without relying on frameworks.
+        </p>
+      </section>
+
+      <aside class="panel">
+        <h2>Links</h2>
+        <div class="stack">
+          <a class="btn btn-primary" href="https://crestauction.netlify.app/" target="_blank" rel="noopener">Live site ↗</a>
+          <a class="btn" href="https://github.com/Arkuradev/JS2-semester-project#readme" target="_blank" rel="noopener">README ↗</a>
+        </div>
+
+        <hr class="soft" />
+
+        <p style="color: var(--muted); font-size: 0.95rem;">
+          Repo: <a class="link" href="https://github.com/Arkuradev/JS2-semester-project" target="_blank" rel="noopener">GitHub ↗</a>
+        </p>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <small>© <span id="year"></span> Stein Arild Gansmoe</small>
+    </div>
+  </footer>
+</body>
+</html>
 </body>
 </html>

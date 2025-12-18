@@ -25,6 +25,77 @@ a:hover {
     color: var(--accentHover); 
 }
 
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 14px;
+    border: 1px solid var(--border);
+    background: rgba(21, 26, 34, 0.6);
+    color: var(--text);
+    transition: transform 140ms ease, border-color 140ms ease, box-shadow 140ms ease, background 140ms ease;
+    user-select: none;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  border-color: rgba(16, 201, 201, 0.35);
+  box-shadow: 0 0 18px rgba(16, 201, 201, 0.12);
+  background: rgba(21, 26, 34, 0.9);
+}
+
+.btn:active { transform: translateY(0px); }
+.btn:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(16, 201, 201, 0.25);
+  border-color: rgba(16, 201, 201, 0.45);
+}
+
+.btn-primary {
+  background: rgba(16, 201, 201, 0.18);
+  border-color: rgba(16, 201, 201, 0.35);
+}
+
+.btn-primary:hover {
+  background: rgba(16, 201, 201, 0.24);
+  box-shadow: 0 0 22px rgba(16, 201, 201, 0.16);
+}
+
+.link {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.link:hover { color: var(--accentHover); }
+
+.copy-status {
+  color: var(--muted);
+  font-size: 0.95rem;
+  min-width: 90px;
+  display: inline-block;
+}
+
+/* --- Article page extras --- */
+.kicker {
+  color: var(--muted);
+  margin-top: -6px;
+  margin-bottom: 14px;
+}
+
+.stack {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+hr.soft {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 16px 0;
+}
+
 .container {
     max-width: 1100px;
     margin: 0 auto;

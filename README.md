@@ -105,5 +105,6 @@ The changes listed here is just what I thought about during these 2 weeks, I am 
 
 
 ## Author
-**Stein Arild Gansmoe
+**Stein Arild Gansmoe**
+
 [GitHub](https://github.com/Arkuradev)

@@ -15,6 +15,12 @@ body {
     font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
     background: var(--bg);
     color: var(--text);
+    min-height: 100vh;
+}
+
+footer {
+    display: flex;
+    margin-top: 200px;
 }
 
 a { 
@@ -183,29 +189,10 @@ header {
     height: auto;
 }
 
+/* --- Media --- */
 
 @media (min-width: 700px) {
     .grid {
         grid-template-columns: repeat(3, 1fr);
     }
 }
-
-/*
-@media (max-width: 700px) {
-    .article-hero {
-        padding: 4px;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-    }
-    .figure {
-        font-size: 12px;
-    }
-    .article-img {
-        width: 330px;
-        height: auto;
-    }
-}
-    */

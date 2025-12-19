@@ -1,7 +1,7 @@
 # Portfolio 2
 
 This is my **Portfolio 2** project, showcasing three larger assignments completed during my studies at Noroff. 
-The portfolio is build as a multi-page website, where each project has its own dedicated article page with live links, documentation and reflections. 
+The portfolio was built as a multi-page website, where each project has its own dedicated article page with live links, documentation and reflections. 
 
 ## Live site
 
@@ -10,7 +10,7 @@ The portfolio is build as a multi-page website, where each project has its own d
 
 ## Portfolio 2 - Class assignment
 
-This page was made as part of a class assignment at Noroff. This assignment had a 2 week deadline to complete. Near the end of this README I have have added ```Future Improvements``` as with more time I would have managed to make some really impactful changes to each project. 
+This page was created as part of a class assignment at Noroff. This assignment had a 2 week deadline to complete. Near the end of this README I have have added **Future Improvements** as with more time I would have managed to make some really impactful changes to each project. 
 
 ## Projects featured
 
@@ -101,7 +101,8 @@ With more time on the assignment and/or at my own time I would have made some ad
 * Improve search and filtering.
 
 
-The changes listed here is just what I thought about during these 2 weeks, I am sure if I spent more time on each project I would find more things I would like to improve upon. On a real project one thing I would strive for was to recieve user feedback, as that is incredibly valuable in order to create a website/app that checks the boxes for the users. 
+The changes listed here is just what I thought about during these 2 weeks, I am sure if I spent more time on each project I would find more things I would like to improve upon. On a real project, one thing I would prioritize is gathering user feedback,
+as it is invaluable for building products that truly meet user needs.
 
 
 ## Author
